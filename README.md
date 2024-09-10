@@ -94,7 +94,7 @@ includes the amount.
 
 ## Improvements
 
-This took a lot longer than 2 hours and there are some things left ot be imported here with the addition of time:
+This took a lot longer than 2 hours and there are some things left to be improved here with the addition of time:
 - PhpStan is setup but issues remain unaddressed
 - End-to-end tests must be supplied and the application does not run perfectly yet
 - The requirement to flag providers on and off requires implementation through either ENV_VARS for the container or a configuration system
