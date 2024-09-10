@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/html
+      - ~/.composer/cache:/tmp/cache/composer
+    ports:
+      - 8080:80
