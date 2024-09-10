@@ -13,6 +13,14 @@ docker compose run web composer tests-unit
 docker compose run web composer tests-unit-coverage
 ```
 
+## Start web server
+
+The web server will run on `http://localhost:8080/`
+
+```bash
+docker compose up web
+```
+
 ## Solution to the problem
 
 This took a lot longer than anticipated ,and I'm not 100% happy with the solution. In retrospect this
